@@ -1,0 +1,36 @@
+.footer__container {
+  width: 100vw;
+  height: 10vh;
+  background-color: #111;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.footer__text {
+  font-size: 0.8rem;
+  font-style: italic;
+  display: none;
+}
+
+.footer__span {
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 59em) {
+  /* MOBILE NAVIGATION */
+  .footer__text {
+    font-size: 0.6rem;
+    font-style: italic;
+    display: block;
+  }
+
+  .footer__span {
+    font-style: normal;
+    font-size: 0.5rem;
+  }
+}

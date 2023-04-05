@@ -1,0 +1,27 @@
+.signup__header {
+  /* opacity: 87%; */
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.s__button {
+  background-color: #2096f3;
+  color: #111;
+}
+
+.s__button:hover,
+.s__button:active {
+  background-color: #03dac6 !important;
+}
+
+.error__email {
+  padding: 3px;
+  color: #fd5c63;
+  display: none;
+  position: relative;
+  bottom: 1rem;
+}
+
+.input__email:invalid ~ .error__email {
+  display: block;
+}

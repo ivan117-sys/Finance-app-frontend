@@ -1,0 +1,16 @@
+.error__header {
+  position: relative !important;
+  bottom: 6rem !important;
+}
+
+.error__message__modal {
+  color: #fe8078 !important;
+  display: block !important;
+}
+
+@media (max-width: 59em) {
+  .error__header {
+    position: relative !important;
+    bottom: 3rem !important;
+  }
+}

@@ -1,0 +1,14 @@
+.update__income {
+  color: #61d3ab;
+  opacity: 100%;
+}
+
+@media (max-width: 59em) {
+  .update__income {
+    color: #61d3ab;
+  }
+  .editForm {
+    position: relative;
+    top: 6rem;
+  }
+}

@@ -1,0 +1,23 @@
+.sort__income {
+  width: 10rem;
+  height: 2rem;
+  position: relative;
+  top: 0.2rem;
+}
+.sort__container {
+  width: 10rem;
+}
+
+.sort__select {
+  width: 10rem;
+}
+
+@media (max-width: 60em) {
+  .sort__select {
+    width: 9rem;
+    font-size: 0.8rem;
+    height: 2.5rem;
+    position: relative;
+    left: 0.5rem;
+  }
+}

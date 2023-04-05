@@ -1,0 +1,114 @@
+.nav_container {
+  background-color: #111;
+  height: 80vh;
+  width: 15vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 10vw;
+  height: 3rem;
+  padding: 1rem 1rem 2rem 1rem;
+  cursor: pointer;
+  font: inherit;
+  margin: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s;
+  /* opacity: 87%; */
+}
+
+.income__button {
+  background-color: #61d3ab;
+  color: #111;
+}
+
+.expenses__button {
+  background-color: #fe8078;
+  color: #111;
+}
+
+.budget__button {
+  background-color: #fdc30b;
+  color: #111;
+}
+
+.income__button:hover,
+.income__button:active {
+  background-color: #b0e0e6;
+}
+
+.expenses__button:hover,
+.expenses__button:active {
+  background-color: #f9aeae;
+}
+
+.budget__button:hover,
+.budget__button:active {
+  background-color: #f8ed62;
+}
+
+.main__button:hover,
+.main__button:active {
+  background-color: #555;
+}
+
+.login__button:hover,
+.login__button:active {
+  background-color: #555;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.bars {
+  height: 1.4rem;
+  width: 5rem;
+  /* opacity: 87%; */
+  cursor: pointer;
+  position: relative;
+  bottom: 2.2rem;
+}
+
+@media (max-width: 59em) {
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    /* z-index: 9999; */
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+  }
+
+  .navbar {
+    visibility: hidden;
+  }
+
+  .nav_container {
+    background-color: #333;
+    height: 90vh;
+    width: 0vw;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  button {
+    width: 9rem !important;
+    height: 1rem !important;
+    font-size: 0.8rem;
+  }
+}

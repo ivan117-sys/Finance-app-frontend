@@ -1,0 +1,21 @@
+.budge__label {
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+}
+
+.sort__budget {
+  position: relative;
+  outline: none;
+  top: 2rem;
+}
+
+@media (max-width: 59em) {
+  .sort__budget {
+    top: -0.8rem;
+  }
+  .new__budget__div {
+    position: relative;
+    bottom: 6rem;
+  }
+}

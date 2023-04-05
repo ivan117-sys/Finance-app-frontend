@@ -1,0 +1,36 @@
+.chart__container {
+  display: flex;
+
+  height: 80vh;
+  width: 85vw;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chart__text__container {
+  margin-bottom: 2rem;
+}
+.chart__text {
+  font-size: 1.3rem;
+}
+@media (max-width: 59em) {
+  .chart__container {
+    display: flex;
+
+    height: 40rem;
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5rem;
+  }
+  .bar__container {
+    width: 90vw;
+    height: 40rem;
+  }
+}

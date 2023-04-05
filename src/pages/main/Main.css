@@ -1,0 +1,231 @@
+.main__container {
+  height: 70rem;
+  width: 85vw;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.total__income {
+  height: 8rem;
+  width: 15rem;
+  text-align: center;
+  /* opacity: 87%; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #333;
+  border-radius: 8%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.total__expense {
+  height: 8rem;
+  width: 15rem;
+  text-align: center;
+  /* opacity: 87%; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #333;
+  border-radius: 8%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.total__balance {
+  height: 8rem;
+  width: 15rem;
+  text-align: center;
+  /* opacity: 87%; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #333;
+  border-radius: 8%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.text__goals {
+  margin-bottom: 1.5rem;
+  align-self: center;
+  opacity: 87%;
+}
+.total__text {
+  font-size: 1.5rem;
+}
+
+.main__text {
+  position: relative;
+  top: 1rem;
+}
+
+.text__income {
+  font-size: 2rem;
+  color: #61d3ab;
+}
+
+.text__expense {
+  font-size: 2rem;
+  color: #fe8078;
+}
+
+.text__balance {
+  font-size: 2rem;
+  color: #fdc30b;
+}
+
+.green {
+  color: #61d3ab;
+}
+
+.red {
+  color: #fe8078;
+}
+
+.budget__goal__green {
+  color: #61d3ab;
+}
+
+.budget__goal__red {
+  color: #fe8078;
+}
+.goals__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  position: relative;
+
+  justify-content: center;
+  bottom: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+.incomes__expenses {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+.goals__icon {
+  align-self: center;
+  color: #444;
+}
+.check__icon {
+  align-self: center;
+  color: #61d3ab;
+}
+
+.stats__heading {
+  /* opacity: 87%; */
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.alltime__goals {
+  margin-bottom: 2rem;
+  position: relative;
+  bottom: 1rem;
+  opacity: 87%;
+}
+
+@media (max-width: 59em) {
+  .main__container {
+    width: 100vw;
+    height: 58rem;
+    justify-content: start;
+  }
+
+  .incomes__expenses {
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .stats__heading {
+    /* opacity: 87%; */
+    text-align: center;
+    margin-bottom: 0.6rem;
+  }
+  .text__income {
+    font-size: 1.5rem;
+    color: #61d3ab;
+  }
+
+  .text__expense {
+    font-size: 1.5rem;
+    color: #fe8078;
+  }
+
+  .text__balance {
+    font-size: 1.5rem;
+    color: #fdc30b;
+  }
+  .total__text {
+    font-size: 1.2rem;
+  }
+  .total__income {
+    height: 6.5rem;
+    width: 12.5rem;
+    position: relative;
+    bottom: 10.6rem;
+  }
+
+  .total__expense {
+    height: 6.5rem;
+    width: 12.5rem;
+    position: relative;
+    bottom: 11rem;
+  }
+
+  .total__balance {
+    height: 6.5rem;
+    width: 12.5rem;
+    position: relative;
+    bottom: 11.3rem;
+  }
+  .main__container {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .expenses__goals {
+    font-size: 0.8rem;
+    position: relative;
+  }
+  .text__goals {
+    margin-bottom: 1.5rem;
+    align-self: center;
+    opacity: 87%;
+    position: relative;
+    top: 1rem;
+  }
+
+  .text__goals__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .monthly__goals__div {
+    position: relative;
+    bottom: 3.5rem;
+  }
+  .account__balance__stats {
+    position: relative;
+    bottom: 7.5rem;
+  }
+  .alltime__goals {
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 7.2rem;
+    opacity: 87%;
+  }
+  .no__stats {
+    position: relative;
+    bottom: 1.8rem;
+  }
+}

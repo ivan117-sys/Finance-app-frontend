@@ -1,0 +1,158 @@
+.income__container {
+  height: 90vh;
+  width: 85vw;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.income__list {
+  width: 80vw;
+  height: 22rem;
+
+  /* background-color: #00ffff; */
+  overflow-y: scroll;
+  scrollbar-color: grey;
+}
+
+.income__list::-webkit-scrollbar {
+  display: none;
+}
+
+.incomes__container {
+  height: 3rem;
+  width: 80vw;
+}
+
+.list__container {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  padding: 0.6rem;
+  background-color: #222;
+  margin: 1rem;
+  /* opacity: 87%; */
+
+  transition: all 0.3s;
+}
+
+.green__select {
+  border: none;
+}
+
+.income__amount {
+  color: #61d3ab;
+}
+.income__type {
+  flex-grow: 6;
+}
+.income__date {
+  flex-grow: 1;
+}
+
+.create__income {
+  width: 15rem;
+  background-color: #61d3ab;
+  color: #111;
+}
+
+.create__income:hover,
+.create__income:active {
+  background-color: #b0e0e6;
+}
+
+.house:hover,
+.house:active {
+  color: #61d3ab;
+}
+
+.delete__button {
+  height: 0.4rem;
+  width: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.delete__button:hover,
+.delete__button:active {
+  color: #fd5c63;
+}
+
+.list__container {
+  text-decoration: none;
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.list__container:hover,
+.list__container:active {
+  color: #61d3ab;
+}
+.no__incomes {
+  top: 2rem;
+  /* opacity: 87%; */
+  font-size: 1rem;
+  text-align: center;
+}
+
+.income__date {
+  font-size: 0.7rem;
+  opacity: 87%;
+}
+
+@media (max-width: 59em) {
+  .income__container {
+    width: 100vw;
+
+    justify-content: flex-start;
+  }
+
+  .income__list {
+    width: 95vw;
+    height: 400rem;
+
+    overflow-y: scroll;
+    scrollbar-color: grey;
+  }
+
+  .income__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .incomes__container {
+    height: 3rem;
+    width: 95vw;
+  }
+  .create__income {
+    background-color: #61d3ab;
+    color: #111;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 2rem;
+  }
+  .income__container {
+    height: 80vh;
+
+    margin-top: 1rem;
+  }
+  .green__select {
+  }
+}
+.house {
+  color: #2096f3;
+  transition: all 0.3s;
+}
+.house__button {
+  background-color: #61d3ab;
+}
+@media (min-width: 60em) {
+  .house {
+    height: 1.8rem;
+  }
+}

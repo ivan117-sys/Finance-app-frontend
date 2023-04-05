@@ -1,0 +1,62 @@
+.expenses__container {
+  height: 90vh;
+  width: 85vw;
+  background-color: #fe8078;
+}
+
+.create__exspense {
+  margin-top: 2rem;
+  width: 15rem;
+  background-color: #fe8078;
+  color: #111;
+}
+.expense__ammount {
+  color: #fe8078;
+}
+
+.list__exspense__container {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  padding: 0.6rem;
+  background-color: #222;
+  margin: 1rem;
+  /* opacity: 87%; */
+
+  transition: all 0.3s;
+}
+.select__red {
+  border: none;
+}
+
+.create__exspense:hover,
+.create__exspense:active {
+  background-color: #fd5c63;
+}
+
+.list__exspense__container:hover,
+.list__exspense__container:active {
+  color: #fe8078;
+}
+
+.get__started {
+  text-align: center;
+}
+
+@media (max-width: 59em) {
+  .expenses__container {
+    width: 100vw;
+  }
+  .create__exspense {
+    width: 12rem;
+  }
+
+  .select__red {
+  }
+  .create__exspense {
+    width: 10rem;
+    background-color: #fe8078;
+    color: #111;
+  }
+}

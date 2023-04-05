@@ -1,0 +1,23 @@
+.edit__expenses {
+  opacity: 100%;
+  color: #fe8078;
+}
+
+.error__category {
+  padding: 3px;
+  color: #fd5c63;
+  display: none;
+  position: relative;
+  bottom: 1rem;
+}
+
+.category__input:invalid ~ .error__category {
+  display: block;
+}
+
+@media (max-width: 59em) {
+  .edit__form {
+    position: relative;
+    top: 6rem;
+  }
+}

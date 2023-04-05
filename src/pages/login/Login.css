@@ -1,0 +1,49 @@
+.login__container {
+  background-color: #111;
+  width: 85vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  position: relative;
+  bottom: 2rem;
+}
+
+.error__password {
+  padding: 3px;
+  color: #fd5c63;
+  display: none;
+  position: relative;
+  bottom: 1rem;
+}
+
+.input__password:invalid ~ .error__password {
+  display: block;
+}
+
+.signup__button {
+  position: relative;
+  top: 5rem;
+  width: 10rem;
+  background-color: #2096f3;
+  color: #111;
+}
+
+.signup__button:hover,
+.signup__button:active {
+  background-color: #03dac6;
+}
+
+.login__header {
+  /* opacity: 87%; */
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 59em) {
+  .login__container {
+    width: 100vw;
+  }
+}
