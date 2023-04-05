@@ -1,1 +1,1 @@
-# Finance-app-frontend made in React, deployed to Netlify.
+# Finance-app-frontend made in React.
